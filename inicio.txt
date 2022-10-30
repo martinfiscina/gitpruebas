@@ -1,1 +1,18 @@
 hola
+comandos usados: 
+git remote: para ver repositorios
+git remote -v muestra las url de los remotos
+ git init
+ git add
+ git commit -m "mensaje..."
+ git add remote origin url del repositorio remoto...
+ origin será ahora el nombre del repositorio remoto
+
+ enviar al remoto:
+ git push origin master
+
+ ver el remote: git remote show origin
+
+ renombrar el remoto:
+ git remote rename origin nuevo-nombre
+ 
