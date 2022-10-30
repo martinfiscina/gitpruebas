@@ -15,4 +15,8 @@ git remote -v muestra las url de los remotos
 
  renombrar el remoto:
  git remote rename origin nuevo-nombre
+
+ eliminar un remoto:
+ git remote rm <nombredelremoto>
+
  
