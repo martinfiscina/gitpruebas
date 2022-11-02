@@ -19,4 +19,18 @@ git remote -v muestra las url de los remotos
  eliminar un remoto:
  git remote rm <nombredelremoto>
 
+ luego de un git fetch --all, git log para ver todo, las ramas locales y la rama remota oculta:
+ git log -p HEAD FETCH_HEAD
+ (-p es lo que genera un patch que muestra las diferencias)
+
+ luego se puede hacer un pull o un merge
+
+ ver  todas las ramas (incluso la rama oculta del fetch): git branch -a
+
+ moverse entre ramas: git checkout <rama>
+
+ 
+
+
+
  
