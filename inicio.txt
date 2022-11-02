@@ -20,8 +20,9 @@ git remote -v muestra las url de los remotos
  git remote rm <nombredelremoto>
 
  luego de un git fetch --all, git log para ver todo, las ramas locales y la rama remota oculta:
- git log -p HEAD FETCH_HEAD
+ git log -p master origin/master
  (-p es lo que genera un patch que muestra las diferencias)
+ otra manera: git diff origin inicio.txt
 
  luego se puede hacer un pull o un merge
 
@@ -29,7 +30,7 @@ git remote -v muestra las url de los remotos
 
  moverse entre ramas: git checkout <rama>
 
- 
+
 
 
 
