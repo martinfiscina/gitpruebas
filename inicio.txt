@@ -30,6 +30,23 @@ git remote -v muestra las url de los remotos
 
  moverse entre ramas: git checkout <rama>
 
+ git diff:
+ git diff muestra diferencias del archivo con los cambios hechos con add y control + s (guardar el archivo sin hacer add)
+
+ git diff --cached inicio.txt muestra las diferencias entre inicio.txt (head) y los cambios add (igual a usar --staged)
+
+
+ git push origin master:nombre-remota sube los cambios al repositorio remoto, la rama master se llamara nombre-remota
+ 
+ git branch:
+ generar una rama local a partir de una remota:
+ git branch -b rama-local origin/rama-remota
+
+ Al activar (checkout) una rama local a partir de una rama remota, se crea automáticamente lo que podríamos denominar una “rama de seguimiento” (tracking branch).
+ git branch -vv muestra a que ramas remotas sigue nuestra rama local. Ej:
+
+
+
 
 
 
