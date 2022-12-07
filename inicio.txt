@@ -45,6 +45,8 @@ git remote -v muestra las url de los remotos
  Al activar (checkout) una rama local a partir de una rama remota, se crea automáticamente lo que podríamos denominar una “rama de seguimiento” (tracking branch).
  git branch -vv muestra a que ramas remotas sigue nuestra rama local. Ej:
 
+ aporte de tomi
+
 
 
 
